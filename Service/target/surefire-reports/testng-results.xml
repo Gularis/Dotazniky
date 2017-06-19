@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="43191" started-at="2017-06-19T18:30:06Z" finished-at="2017-06-19T18:30:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="43191" started-at="2017-06-19T18:30:06Z" finished-at="2017-06-19T18:30:50Z">
+      <class name="cz.mendelu.pef.swi.service.services.DotaznikServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2" started-at="2017-06-19T20:30:49Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-06-19T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="setup" is-config="true" duration-ms="3" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="547" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.mendelu.pef.swi.service.services.DotaznikServiceTest.testFindAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testFindAll()[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="testFindAll" duration-ms="2" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAll -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.mendelu.pef.swi.service.services.DotaznikServiceTest.testFindAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="285" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.mendelu.pef.swi.service.services.DotaznikServiceTest.testFindById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="testFindById" duration-ms="1" started-at="2017-06-19T20:30:50Z" finished-at="2017-06-19T20:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2017-06-19T20:30:50Z" finished-at="2017-06-19T20:30:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.mendelu.pef.swi.service.services.DotaznikServiceTest.testFindById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:cz.mendelu.pef.swi.service.services.DotaznikServiceTest@1a8a8f7c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-06-19T20:30:50Z" finished-at="2017-06-19T20:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- cz.mendelu.pef.swi.service.services.DotaznikServiceTest -->
+      <class name="cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="6" started-at="2017-06-19T20:30:06Z" finished-at="2017-06-19T20:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="30528" started-at="2017-06-19T20:30:06Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-06-19T20:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="340" started-at="2017-06-19T20:30:37Z" finished-at="2017-06-19T20:30:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest.testFindAllTrainersFacade() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="setUp" is-config="true" duration-ms="87" started-at="2017-06-19T20:30:37Z" finished-at="2017-06-19T20:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindAllTrainersFacade()[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="testFindAllTrainersFacade" duration-ms="16" started-at="2017-06-19T20:30:37Z" finished-at="2017-06-19T20:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllTrainersFacade -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="5" started-at="2017-06-19T20:30:37Z" finished-at="2017-06-19T20:30:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest.testFindAllTrainersFacade() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="11353" started-at="2017-06-19T20:30:37Z" finished-at="2017-06-19T20:30:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest.testGetTrainerByIdFacade() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="setUp" is-config="true" duration-ms="1" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetTrainerByIdFacade()[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="testGetTrainerByIdFacade" duration-ms="1" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTrainerByIdFacade -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest.testGetTrainerByIdFacade() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest@69a3d1d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-06-19T20:30:49Z" finished-at="2017-06-19T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- cz.mendelu.pef.swi.service.facade.DotaznikFacadeTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
