@@ -9,8 +9,8 @@
         <module>eprieskumy</module>
         <module>Api</module>
         <module>Service</module>
-    <module>WebModuleFrontend</module>
-  </modules>
+        <module>WebModuleFrontend</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

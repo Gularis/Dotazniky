@@ -43,12 +43,14 @@ public class Dotaznik {
     //@JoinColumn(name = "id")
     private int owner;
     
-    private Set<Odpoved> answers;
+    
+    @OneToMany(cascade = CascadeType.ALL)
+    private Set<Odpoved> answers = new HashSet();
     
     public int getId() {
         return id;
     }
-    
+   
     public Set<Odpoved> getAnswers()
     {
         return answers;
@@ -128,7 +130,7 @@ public class Dotaznik {
         this.description = description;
         this.question = question;
         this.owner = owner;
-        this.answers = null;
+      //  this.answers = null;
         //owner.setRole(ROLE_OWNER);
     }
 

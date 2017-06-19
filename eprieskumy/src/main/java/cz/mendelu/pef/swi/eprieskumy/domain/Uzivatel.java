@@ -121,12 +121,9 @@ public class Uzivatel {
     {
         if(dotazniky != null) {
             this.owenersDotazniky.addAll(dotazniky);
-        }
-        
-        
-        
+        }         
     }
-    
+
     public Uzivatel() {
     }
 
