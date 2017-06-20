@@ -68,11 +68,11 @@ public class UzivatelServiceImpl implements UzivatelService {
         }
         return false;
     }
-    /*
+    
     @Override
     public void odpovedNaDotaznik(Dotaznik dotaznik, Odpoved odpoved){
         dotaznikService.addAnswer(dotaznik, odpoved);
-    }*/
+    }
     
     
     @Override

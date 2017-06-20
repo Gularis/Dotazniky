@@ -51,7 +51,7 @@ public class Dotaznik {
         return id;
     }
    
-    public Set<Odpoved> getAnswers()
+    public Set<Odpoved> getAnswer()
     {
         return answers;
     }
@@ -130,7 +130,7 @@ public class Dotaznik {
         this.description = description;
         this.question = question;
         this.owner = owner;
-      //  this.answers = null;
+        this.answers = null;
         //owner.setRole(ROLE_OWNER);
     }
 

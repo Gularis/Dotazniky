@@ -26,7 +26,7 @@ public interface UzivatelService {
 
     void delete(Uzivatel uzivatel);
     
-  // void odpovedNaDotaznik(Dotaznik dotaznik, Odpoved odpoved);
+    void odpovedNaDotaznik(Dotaznik dotaznik, Odpoved odpoved);
     
     boolean isDotaznikOwner(Uzivatel u);
             

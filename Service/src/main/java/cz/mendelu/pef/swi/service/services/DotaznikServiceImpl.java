@@ -5,6 +5,7 @@
  */
 package cz.mendelu.pef.swi.service.services;
 
+import cz.mendelu.pef.swi.api.dto.DotaznikDTO;
 import cz.mendelu.pef.swi.eprieskumy.dao.DotaznikDao;
 import cz.mendelu.pef.swi.eprieskumy.dao.UzivatelDao;
 import cz.mendelu.pef.swi.eprieskumy.domain.Dotaznik;
@@ -38,6 +39,7 @@ public class DotaznikServiceImpl implements DotaznikService{
     @Autowired
     private DotaznikDao dotaznikDao;
     
+     
     @Autowired
     private UzivatelDao uzivatelDao;
     
@@ -73,8 +75,10 @@ public class DotaznikServiceImpl implements DotaznikService{
     @Override
     public void addAnswer(Dotaznik d, Odpoved o){
         Dotaznik dot = dotaznikDao.findById(d.getId());
-       // dot.setAnswer(o);
-        //dotaznikDao.save(dot);
+        dot.setAnswer(o);
+        dotaznikDao.save(dot);
+    //d.setAnswer(o)
+    
     }
     
     

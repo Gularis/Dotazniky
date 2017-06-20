@@ -5,6 +5,8 @@
  */
 package cz.mendelu.pef.swi.service.services;
 
+import cz.mendelu.pef.swi.api.dto.DotaznikDTO;
+import cz.mendelu.pef.swi.api.dto.OdpovedDTO;
 import cz.mendelu.pef.swi.eprieskumy.domain.Dotaznik;
 import cz.mendelu.pef.swi.eprieskumy.domain.Odpoved;
 import cz.mendelu.pef.swi.eprieskumy.domain.Role;

@@ -5,6 +5,7 @@
  */
 package cz.mendelu.pef.swi.api.dto;
 
+import cz.mendelu.pef.swi.eprieskumy.domain.Odpoved;
 import cz.mendelu.pef.swi.eprieskumy.domain.Uzivatel;
 
 import java.util.Set;
@@ -28,10 +29,11 @@ public class DotaznikCreateDTO {
     @NotNull
     private Uzivatel owner;
     
+    
     public String getTitle() {
         return title;
     }
-
+    
     public String getDescription() {
         return description;
     }

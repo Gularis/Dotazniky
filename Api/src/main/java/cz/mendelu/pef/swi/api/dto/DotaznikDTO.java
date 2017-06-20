@@ -5,6 +5,7 @@
  */
 package cz.mendelu.pef.swi.api.dto;
 
+import cz.mendelu.pef.swi.eprieskumy.domain.Odpoved;
 import java.util.Set;
 
 /**
@@ -23,6 +24,24 @@ public class DotaznikDTO {
     private Set<UzivatelDTO> respondents;
     
     private UzivatelDTO owner;
+    
+    private Set<OdpovedDTO> answers;
+   
+    public Set<OdpovedDTO> getAnswers()
+    {
+        return answers;
+    }
+    
+    public void setAnswers(Set<OdpovedDTO> o)
+    {
+        this.answers.addAll(o);
+    }
+    
+    public void setAnswer(OdpovedDTO o)
+    {
+        this.answers.add(o);
+    }
+
     
     public int getId() {
         return id;

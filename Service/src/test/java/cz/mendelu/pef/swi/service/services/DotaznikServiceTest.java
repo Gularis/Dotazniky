@@ -7,6 +7,7 @@ package cz.mendelu.pef.swi.service.services;
 
 import cz.mendelu.pef.swi.eprieskumy.dao.DotaznikDao;
 import cz.mendelu.pef.swi.eprieskumy.domain.Dotaznik;
+import cz.mendelu.pef.swi.eprieskumy.domain.Odpoved;
 import cz.mendelu.pef.swi.eprieskumy.domain.Role;
 import cz.mendelu.pef.swi.eprieskumy.domain.Uzivatel;
 import cz.mendelu.pef.swi.service.service.config.ServiceConfiguration;
@@ -20,6 +21,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 import org.hibernate.service.spi.ServiceException;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -60,12 +62,14 @@ public class DotaznikServiceTest extends AbstractTestNGSpringContextTests{
     private OdpovedService odpovedService;
     
     private Dotaznik dotaznik ;
+    private Odpoved odpoved;
     
     @BeforeClass
     public void setup() throws ServiceException {
         MockitoAnnotations.initMocks(this);
         dotaznik = new Dotaznik("mega dotaznik", "maega vyplnit","Naco", 1);
-
+        odpoved = new Odpoved(1, 1, "Dotaznik je fajn");
+        odpovedService.create(odpoved);
         dotaznikService.create(dotaznik);
     }
     
@@ -81,6 +85,20 @@ public class DotaznikServiceTest extends AbstractTestNGSpringContextTests{
         assertEquals(dotaznikService.findById(1), new Dotaznik("dotaznik2", "vyplnte 2", "Co je toto?",1));
     }
     
+  /*  @Test
+    public void TestAddAnswer()
+    {
+        dotaznik = new Dotaznik("mega dotaznik", "maega vyplnit","Naco", 1);
+        odpoved = new Odpoved(1, 1, "Dotaznik je fajn");
+   
+        dotaznikService.addAnswer(dotaznik, odpoved);
+      // Set<Odpoved> result = dotaznik.getAnswer();
+       // System.out.println(result);
+       // System.out.println(odpoved.getText());
+        
+        //assertEquals(result, odpoved.getText() );
+    }
+     */
     private Map<String, Dotaznik> createDotaznikyGroup() {
         System.out.println("ok");
         Map<String, Dotaznik> group = new HashMap<>();

@@ -5,12 +5,7 @@
     <artifactId>swi2IS</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <modules>
-        <module>eprieskumy</module>
-        <module>Api</module>
-        <module>Service</module>
-        <module>WebModuleFrontend</module>
-    </modules>
+    <modules></modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
